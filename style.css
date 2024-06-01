@@ -1,0 +1,22 @@
+@import url('./styles/reset.css');
+@import url('./styles/header.css');
+@import url('./styles/main.css');
+@import url('./styles/footer.css');
+
+:root {
+    --color-primary: ;
+    --color-secondary: ;
+    --color-tertiary: ;
+    --color-gradient: ;
+    --color-title: ;
+    --color-black: ;
+    --color-white: ;
+
+}
+
+body {
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
