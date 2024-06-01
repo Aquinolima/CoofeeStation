@@ -11,18 +11,42 @@
 
 <body>
     <header class="header">
-        <!-- Conteúdo do cabeçalho -->
+        <div class="logo">
+            <img src="./assets/images/1.png" alt="Logo">
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#quem-somos">Quem Somos</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#avaliacoes">Avaliações</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#receitas">Receitas</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="mobile-nav" id="mobile-nav">
+            <span class="close-btn" onclick="toggleMenu()">&times;</span>
+            <a href="#home">Home</a>
+            <a href="#quem-somos">Quem Somos</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#avaliacoes">Avaliações</a>
+            <a href="#contato">Contato</a>
+            <a href="#receitas">Receitas</a>
+        </div>
     </header>
 
-    <main>
-        <!-- Conteúdo principal da página -->
-    </main>
+        <main>
+            <!-- Conteúdo principal da página -->
+        </main>
 
-    <footer class="footer">
-        <!-- Conteúdo do rodapé -->
-        <p>Desenvolvido por Thiago Aquino</p>
-    </footer>
-    <script src="script.js"></script>
+        <footer class="footer">
+            <!-- Conteúdo do rodapé -->
+            <p>Desenvolvido por Thiago Aquino</p>
+        </footer>
+        <script src="script.js"></script>
 
 </body>
 

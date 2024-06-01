@@ -3,14 +3,22 @@
 @import url('./styles/main.css');
 @import url('./styles/footer.css');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
-    --color-primary: ;
-    --color-secondary: ;
-    --color-tertiary: ;
-    --color-gradient: ;
-    --color-title: ;
-    --color-black: ;
-    --color-white: ;
+    --color-green: #0E3E33 ;
+    --color-blue: #1A3C60 ;
+    --color-gray-blue: #56626D ;
+    --color-coffee: #301510;
+    --color-rose: #FEC49A;
+    --color-orange: #FF9E01;
+    --color-black: #000000; 
+    --color-white: #ffffff;
+
+    --font-primary: "Roboto", sans-serif;
+    --font-secondary: "Permanent Marker";
 
 }
 
