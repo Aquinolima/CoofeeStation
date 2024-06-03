@@ -4,61 +4,97 @@
   align-items: center;
   background: url(../assets/images/home-img.jpeg) no-repeat;
   background-position: center;
+
 }
 
-.home .content {
+.home__content {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
   max-width: 60rem;
   padding-left: 4rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.home .content h3 {
+.home__content-tittle {
   font-size: 6rem;
+  padding-left: 3rem;
+  padding-right: 1rem;
   text-transform: uppercase;
   color: var(--color-white);
 }
 
-.home .content p {
+.home__content-text {
   font-size: 1.8rem;
   font-weight: lighter;
   line-height: 1.8;
-  padding: 1rem 0;
+  padding: 2rem;
   color: var(--color-white);
+  text-align:justify;
 }
 
-  .btn {
-    margin-top: 1rem;
-    display: inline-block;
-    padding: 0.7rem 3rem;
-    font-size: 1.7rem;
-    color: var(--color-coffee);
-    letter-spacing: 0.2rem;
-    background-color: var(--color-rose);
-    cursor: pointer;
-    text-decoration: none;
+.btn {
+  padding: 0.7rem 3rem;
+  font-size: 1.7rem;
+  width: 30%;
+  color: var(--color-coffee);
+  letter-spacing: 0.2rem;
+  background-color: var(--color-rose);
+  cursor: pointer;
+  text-decoration: none;
+  text-align:center;
+}
+
+.btn:hover {
+  background-color: var(--color-orange);
+}
+
+ 
+@media (max-width: 1400px) {
+  .home {
+    background-position: left;
+    justify-content: center;
+    
   }
-  
-  .btn:hover {
-    background-color: var(--color-orange);
+  .home__content-tittle {
+    font-size: 3.5rem;
+
+    text-align:left;
   }
 
-
+  .home__content-text {
+    font-size: 2rem;
+    text-align:justify;
+    padding-right: 1rem;
+  }
+}
 @media (max-width: 768px) {
 
 .home {
     background-position: left;
     justify-content: center;
-    text-align: center;
+    
   }
-  .home .content {
+  .home__content {
   
     padding-left: 0;
   }
 
-  .home .content h3 {
-    font-size: 4.5rem;
+  .home__content-tittle {
+    font-size: 3rem;
+padding-right: 1rem;
+    text-align:center;
   }
 
-  .home .content p {
+  .home__content-text {
     font-size: 1.5rem;
+    text-align:justify;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    width: auto;
+    padding: 1rem;
   }
 }
