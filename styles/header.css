@@ -6,9 +6,15 @@
   padding: 10px 20px;
   background-color: var(--color-black);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
+
 .logo img {
-  height: 60px; /* Ajuste a altura conforme necessário */
+  height: 8rem; /* Ajuste a altura conforme necessário */
 }
 .nav-menu {
   list-style: none;
