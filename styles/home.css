@@ -57,6 +57,14 @@
     justify-content: center;
     
   }
+  .home__content{
+    padding: 1rem 3rem;
+display: flex;
+flex-direction: column;
+max-width: 60rem;
+
+justify-content: center;
+}
   .home__content-tittle {
     font-size: 3.5rem;
 
